@@ -52,7 +52,7 @@ public class UserController {
         }
 
         userService.registerUser(user);
-        return "redirect:/users/login";
+        return "users/login";
     }
 
     public boolean isValidPassword(String password) {
